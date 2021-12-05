@@ -1,2 +1,2 @@
 # VRC-Haptics-Profile
-Controller haptics profile for VRChat:
+Controller haptics profile for VRChat.
