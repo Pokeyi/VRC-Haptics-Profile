@@ -479,6 +479,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5103475396946761443, guid: 0e25699ac2049fd44abc868b2c088085,
         type: 3}
+      propertyPath: _syncMethod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5103475396946761443, guid: 0e25699ac2049fd44abc868b2c088085,
+        type: 3}
       propertyPath: serializedProgramAsset
       value: 
       objectReference: {fileID: 11400000, guid: 15da07b67b1658340a6ac357eaaa46b6,

@@ -45,7 +45,7 @@ namespace Pokeyi.UdonSharp
             pickupHandLeft = VRC_Pickup.PickupHand.Left;
         }
 
-        public void _TriggerHaptics()
+        public void _TriggerHaptics() // *Public/Protected*
         {   // Calculate local player distance to determine amplitude falloff if enabled, play haptic events:
             float distance = Vector3.Distance(transform.position, playerLocal.GetPosition());
             if ((maxDistance > 0F) && (distance > maxDistance)) return;
