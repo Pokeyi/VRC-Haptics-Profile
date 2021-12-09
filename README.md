@@ -60,7 +60,7 @@ Additional modifiers for distance-based culling and amplitude-falloff.
 Call the public "\_TriggerHaptics" method to trigger the haptic event for the local player.
 - This can be done without any programming via 'SendCustomEvent' [UI Events](https://docs.vrchat.com/docs/ui-events).
 - You can also reference the Haptics Profile in another Udon Behaviour and call the custom event or public method from there.
-- The [VRC Omni-Action](https://github.com/Pokeyi/VRC-Omni-Action) component has built-in functionality for Haptics Profiles.
+- The [VRC Omni-Action](https://github.com/Pokeyi/VRC-Omni-Action) component has built-in functionality for Haptics Profiles as well as a Timer Repeat enabling the potential for creation of loops to bypass haptic duration limits and create more dynamic haptic events.
 
 ### Use Case Examples
 Example configurations. The maximum possible value for any of the Haptic Properties is 1.0.
