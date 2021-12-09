@@ -63,7 +63,7 @@ Call the public "\_TriggerHaptics" method to trigger the haptic event for the lo
 - The [VRC Omni-Action](https://github.com/Pokeyi/VRC-Omni-Action) component has built-in functionality for Haptics Profiles as well as a Timer Repeat enabling the potential for creation of loops to bypass haptic duration limits and create more dynamic haptic events.
 
 ### Use Case Examples
-Example configurations. The maximum possible value for any of the Haptic Properties is 1.0.
+The maximum possible value for any of the Haptic Properties is 1.0.
 - A Duration of 0.25, Amplitude of 0.5, and Frequency of 0.5 with no Falloff are default and fitting for small events like UI-button clicks.
 
 ### Known Issues
