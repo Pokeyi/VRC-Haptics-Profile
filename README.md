@@ -57,7 +57,7 @@ Additional modifiers for distance-based culling and amplitude-falloff.
 - Max Distance - Maximum distance from the player within which the haptic event can still be received.
 
 ### Trigger Event
-Call the public "\_TriggerHaptics" method to trigger the haptic event for the local player.
+Call the public "\_TriggerHaptics" method to trigger the haptic event for the local player. (See: Notes [#1](#notes))
 - This can be done without any programming via 'SendCustomEvent' [UI Events](https://docs.vrchat.com/docs/ui-events).
 - You can also reference the Haptics Profile in another Udon Behaviour and call the custom event or public method from there.
 - The [VRC Omni-Action](https://github.com/Pokeyi/VRC-Omni-Action) component has built-in functionality for Haptics Profiles as well as a Timer Repeat enabling the potential for creation of loops to bypass haptic duration limits and create more dynamic haptic events.
@@ -66,8 +66,8 @@ Call the public "\_TriggerHaptics" method to trigger the haptic event for the lo
 The maximum possible value for any of the Haptic Properties is 1.0.
 - A Duration of 0.25, Amplitude of 0.5, and Frequency of 0.5 with no Falloff are default and fitting for small events like UI-button clicks.
 
-### Known Issues
-None yet.
+### Notes
+1. Per the VRChat API, public method/event names starting with an "\_Underscore" are protected from remote network calls, necessitating use of a local-only event. Doing this protects them from being called by malicious clients and potentially breaking functionality in your world.
 
 ## Credit & Support
 Please credit me as Pokeyi if you use my work. I would also love to see your creations that make use of it if you're inclined to share. This and [related projects](https://github.com/Pokeyi/VRC-Omni-Action) at release have involved over three months of solid work and self-education as I strive for an opportunity to change careers and make a better life for myself. If you find value in my work, please consider supporting me, I appreciate it more than you can imagine!
