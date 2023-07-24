@@ -1,4 +1,4 @@
-# [💾](https://github.com/Pokeyi/VRC-Haptics-Profile/blob/main/P_HapticsProfile.cs) VRC-Haptics-Profile <!-- [![Downloads](https://img.shields.io/github/downloads/Pokeyi/VRC-Haptics-Profile/total?label=Downloads&logo=github)](https://github.com/Pokeyi/VRC-Haptics-Profile/releases) -->
+# [💾](https://github.com/Pokeyi/VRC-Haptics-Profile/blob/main/P_HapticsProfile.cs) VRC-Haptics-Profile [![Downloads](https://img.shields.io/github/downloads/Pokeyi/VRC-Haptics-Profile/total?label=Downloads&logo=github)](https://github.com/Pokeyi/VRC-Haptics-Profile/releases)
 Controller haptics profile for VRChat.
 
 ![Haptics Profile](P_HapticsProfile.png)
