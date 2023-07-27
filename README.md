@@ -3,6 +3,9 @@ Controller haptics profile for VRChat.
 
 ![Haptics Profile](P_HapticsProfile.png)
 
+### VRChat Creator Companion App (VCC)
+***This project can now be imported through VCC with the [Pokeyi's Udon Tools](https://github.com/Pokeyi/vpm-packages#vpm-packages) VPM package.***
+
 ## Overview
 VRC Haptics Profile is a single configurable UdonSharp behaviour that can be used to custom-tailor controller vibration presets to be placed in your scene with additional options for distance-based culling and amplitude-falloff.
 
